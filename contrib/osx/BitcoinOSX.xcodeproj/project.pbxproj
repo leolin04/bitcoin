@@ -236,47 +236,47 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3043B9881BBA05E2004C03D2 /* arena.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arena.cc; path = ../../../src/leveldb/util/arena.cc; sourceTree = "<group>"; };
-		3043B9891BBA05E2004C03D2 /* block_builder.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = block_builder.cc; path = ../../../src/leveldb/table/block_builder.cc; sourceTree = "<group>"; };
-		3043B98A1BBA05E2004C03D2 /* block.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = block.cc; path = ../../../src/leveldb/table/block.cc; sourceTree = "<group>"; };
-		3043B98B1BBA05E2004C03D2 /* bloom.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bloom.cc; path = ../../../src/leveldb/util/bloom.cc; sourceTree = "<group>"; };
-		3043B98C1BBA05E2004C03D2 /* builder.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = builder.cc; path = ../../../src/leveldb/db/builder.cc; sourceTree = "<group>"; };
-		3043B98D1BBA05E2004C03D2 /* c.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = c.cc; path = ../../../src/leveldb/db/c.cc; sourceTree = "<group>"; };
-		3043B98E1BBA05E2004C03D2 /* cache.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cache.cc; path = ../../../src/leveldb/util/cache.cc; sourceTree = "<group>"; };
-		3043B98F1BBA05E2004C03D2 /* coding.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = coding.cc; path = ../../../src/leveldb/util/coding.cc; sourceTree = "<group>"; };
-		3043B9901BBA05E2004C03D2 /* comparator.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = comparator.cc; path = ../../../src/leveldb/util/comparator.cc; sourceTree = "<group>"; };
-		3043B9911BBA05E2004C03D2 /* crc32c.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = crc32c.cc; path = ../../../src/leveldb/util/crc32c.cc; sourceTree = "<group>"; };
-		3043B9921BBA05E2004C03D2 /* db_iter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = db_iter.cc; path = ../../../src/leveldb/db/db_iter.cc; sourceTree = "<group>"; };
-		3043B9941BBA05E2004C03D2 /* dbformat.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dbformat.cc; path = ../../../src/leveldb/db/dbformat.cc; sourceTree = "<group>"; };
-		3043B9951BBA05E2004C03D2 /* dumpfile.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dumpfile.cc; path = ../../../src/leveldb/db/dumpfile.cc; sourceTree = "<group>"; };
-		3043B9961BBA05E2004C03D2 /* env_posix.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = env_posix.cc; path = ../../../src/leveldb/util/env_posix.cc; sourceTree = "<group>"; };
-		3043B9971BBA05E2004C03D2 /* env_win.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = env_win.cc; path = ../../../src/leveldb/util/env_win.cc; sourceTree = "<group>"; };
-		3043B9981BBA05E2004C03D2 /* env.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = env.cc; path = ../../../src/leveldb/util/env.cc; sourceTree = "<group>"; };
-		3043B9991BBA05E2004C03D2 /* filename.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = filename.cc; path = ../../../src/leveldb/db/filename.cc; sourceTree = "<group>"; };
-		3043B99A1BBA05E2004C03D2 /* filter_block.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = filter_block.cc; path = ../../../src/leveldb/table/filter_block.cc; sourceTree = "<group>"; };
-		3043B99B1BBA05E2004C03D2 /* filter_policy.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = filter_policy.cc; path = ../../../src/leveldb/util/filter_policy.cc; sourceTree = "<group>"; };
-		3043B99C1BBA05E2004C03D2 /* format.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = format.cc; path = ../../../src/leveldb/table/format.cc; sourceTree = "<group>"; };
-		3043B99D1BBA05E2004C03D2 /* hash.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hash.cc; path = ../../../src/leveldb/util/hash.cc; sourceTree = "<group>"; };
-		3043B99E1BBA05E2004C03D2 /* histogram.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = histogram.cc; path = ../../../src/leveldb/util/histogram.cc; sourceTree = "<group>"; };
-		3043B99F1BBA05E2004C03D2 /* iterator.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = iterator.cc; path = ../../../src/leveldb/table/iterator.cc; sourceTree = "<group>"; };
-		3043B9A01BBA05E2004C03D2 /* log_reader.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = log_reader.cc; path = ../../../src/leveldb/db/log_reader.cc; sourceTree = "<group>"; };
-		3043B9A11BBA05E2004C03D2 /* log_writer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = log_writer.cc; path = ../../../src/leveldb/db/log_writer.cc; sourceTree = "<group>"; };
-		3043B9A21BBA05E2004C03D2 /* logging.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = logging.cc; path = ../../../src/leveldb/util/logging.cc; sourceTree = "<group>"; };
-		3043B9A31BBA05E2004C03D2 /* memtable.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = memtable.cc; path = ../../../src/leveldb/db/memtable.cc; sourceTree = "<group>"; };
-		3043B9A41BBA05E2004C03D2 /* merger.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = merger.cc; path = ../../../src/leveldb/table/merger.cc; sourceTree = "<group>"; };
-		3043B9A51BBA05E2004C03D2 /* options.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = options.cc; path = ../../../src/leveldb/util/options.cc; sourceTree = "<group>"; };
-		3043B9A61BBA05E2004C03D2 /* port_posix.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = port_posix.cc; path = ../../../src/leveldb/port/port_posix.cc; sourceTree = "<group>"; };
-		3043B9A71BBA05E2004C03D2 /* repair.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = repair.cc; path = ../../../src/leveldb/db/repair.cc; sourceTree = "<group>"; };
-		3043B9A81BBA05E2004C03D2 /* status.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = status.cc; path = ../../../src/leveldb/util/status.cc; sourceTree = "<group>"; };
-		3043B9A91BBA05E2004C03D2 /* table_builder.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = table_builder.cc; path = ../../../src/leveldb/table/table_builder.cc; sourceTree = "<group>"; };
-		3043B9AA1BBA05E2004C03D2 /* table_cache.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = table_cache.cc; path = ../../../src/leveldb/db/table_cache.cc; sourceTree = "<group>"; };
-		3043B9AB1BBA05E2004C03D2 /* table.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = table.cc; path = ../../../src/leveldb/table/table.cc; sourceTree = "<group>"; };
-		3043B9AC1BBA05E2004C03D2 /* two_level_iterator.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = two_level_iterator.cc; path = ../../../src/leveldb/table/two_level_iterator.cc; sourceTree = "<group>"; };
-		3043B9AD1BBA05E2004C03D2 /* version_edit.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = version_edit.cc; path = ../../../src/leveldb/db/version_edit.cc; sourceTree = "<group>"; };
-		3043B9AE1BBA05E2004C03D2 /* version_set.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = version_set.cc; path = ../../../src/leveldb/db/version_set.cc; sourceTree = "<group>"; };
-		3043B9AF1BBA05E2004C03D2 /* write_batch.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = write_batch.cc; path = ../../../src/leveldb/db/write_batch.cc; sourceTree = "<group>"; };
+		3043B9881BBA05E2004C03D2 /* arena.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = arena.cc; path = ../../src/leveldb/util/arena.cc; sourceTree = "<group>"; };
+		3043B9891BBA05E2004C03D2 /* block_builder.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = block_builder.cc; path = ../../src/leveldb/table/block_builder.cc; sourceTree = "<group>"; };
+		3043B98A1BBA05E2004C03D2 /* block.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = block.cc; path = ../../src/leveldb/table/block.cc; sourceTree = "<group>"; };
+		3043B98B1BBA05E2004C03D2 /* bloom.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bloom.cc; path = ../../src/leveldb/util/bloom.cc; sourceTree = "<group>"; };
+		3043B98C1BBA05E2004C03D2 /* builder.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = builder.cc; path = ../../src/leveldb/db/builder.cc; sourceTree = "<group>"; };
+		3043B98D1BBA05E2004C03D2 /* c.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = c.cc; path = ../../src/leveldb/db/c.cc; sourceTree = "<group>"; };
+		3043B98E1BBA05E2004C03D2 /* cache.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cache.cc; path = ../../src/leveldb/util/cache.cc; sourceTree = "<group>"; };
+		3043B98F1BBA05E2004C03D2 /* coding.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = coding.cc; path = ../../src/leveldb/util/coding.cc; sourceTree = "<group>"; };
+		3043B9901BBA05E2004C03D2 /* comparator.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = comparator.cc; path = ../../src/leveldb/util/comparator.cc; sourceTree = "<group>"; };
+		3043B9911BBA05E2004C03D2 /* crc32c.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = crc32c.cc; path = ../../src/leveldb/util/crc32c.cc; sourceTree = "<group>"; };
+		3043B9921BBA05E2004C03D2 /* db_iter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = db_iter.cc; path = ../../src/leveldb/db/db_iter.cc; sourceTree = "<group>"; };
+		3043B9941BBA05E2004C03D2 /* dbformat.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dbformat.cc; path = ../../src/leveldb/db/dbformat.cc; sourceTree = "<group>"; };
+		3043B9951BBA05E2004C03D2 /* dumpfile.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dumpfile.cc; path = ../../src/leveldb/db/dumpfile.cc; sourceTree = "<group>"; };
+		3043B9961BBA05E2004C03D2 /* env_posix.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = env_posix.cc; path = ../../src/leveldb/util/env_posix.cc; sourceTree = "<group>"; };
+		3043B9971BBA05E2004C03D2 /* env_win.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = env_win.cc; path = ../../src/leveldb/util/env_win.cc; sourceTree = "<group>"; };
+		3043B9981BBA05E2004C03D2 /* env.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = env.cc; path = ../../src/leveldb/util/env.cc; sourceTree = "<group>"; };
+		3043B9991BBA05E2004C03D2 /* filename.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = filename.cc; path = ../../src/leveldb/db/filename.cc; sourceTree = "<group>"; };
+		3043B99A1BBA05E2004C03D2 /* filter_block.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = filter_block.cc; path = ../../src/leveldb/table/filter_block.cc; sourceTree = "<group>"; };
+		3043B99B1BBA05E2004C03D2 /* filter_policy.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = filter_policy.cc; path = ../../src/leveldb/util/filter_policy.cc; sourceTree = "<group>"; };
+		3043B99C1BBA05E2004C03D2 /* format.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = format.cc; path = ../../src/leveldb/table/format.cc; sourceTree = "<group>"; };
+		3043B99D1BBA05E2004C03D2 /* hash.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hash.cc; path = ../../src/leveldb/util/hash.cc; sourceTree = "<group>"; };
+		3043B99E1BBA05E2004C03D2 /* histogram.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = histogram.cc; path = ../../src/leveldb/util/histogram.cc; sourceTree = "<group>"; };
+		3043B99F1BBA05E2004C03D2 /* iterator.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = iterator.cc; path = ../../src/leveldb/table/iterator.cc; sourceTree = "<group>"; };
+		3043B9A01BBA05E2004C03D2 /* log_reader.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = log_reader.cc; path = ../../src/leveldb/db/log_reader.cc; sourceTree = "<group>"; };
+		3043B9A11BBA05E2004C03D2 /* log_writer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = log_writer.cc; path = ../../src/leveldb/db/log_writer.cc; sourceTree = "<group>"; };
+		3043B9A21BBA05E2004C03D2 /* logging.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = logging.cc; path = ../../src/leveldb/util/logging.cc; sourceTree = "<group>"; };
+		3043B9A31BBA05E2004C03D2 /* memtable.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = memtable.cc; path = ../../src/leveldb/db/memtable.cc; sourceTree = "<group>"; };
+		3043B9A41BBA05E2004C03D2 /* merger.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = merger.cc; path = ../../src/leveldb/table/merger.cc; sourceTree = "<group>"; };
+		3043B9A51BBA05E2004C03D2 /* options.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = options.cc; path = ../../src/leveldb/util/options.cc; sourceTree = "<group>"; };
+		3043B9A61BBA05E2004C03D2 /* port_posix.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = port_posix.cc; path = ../../src/leveldb/port/port_posix.cc; sourceTree = "<group>"; };
+		3043B9A71BBA05E2004C03D2 /* repair.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = repair.cc; path = ../../src/leveldb/db/repair.cc; sourceTree = "<group>"; };
+		3043B9A81BBA05E2004C03D2 /* status.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = status.cc; path = ../../src/leveldb/util/status.cc; sourceTree = "<group>"; };
+		3043B9A91BBA05E2004C03D2 /* table_builder.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = table_builder.cc; path = ../../src/leveldb/table/table_builder.cc; sourceTree = "<group>"; };
+		3043B9AA1BBA05E2004C03D2 /* table_cache.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = table_cache.cc; path = ../../src/leveldb/db/table_cache.cc; sourceTree = "<group>"; };
+		3043B9AB1BBA05E2004C03D2 /* table.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = table.cc; path = ../../src/leveldb/table/table.cc; sourceTree = "<group>"; };
+		3043B9AC1BBA05E2004C03D2 /* two_level_iterator.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = two_level_iterator.cc; path = ../../src/leveldb/table/two_level_iterator.cc; sourceTree = "<group>"; };
+		3043B9AD1BBA05E2004C03D2 /* version_edit.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = version_edit.cc; path = ../../src/leveldb/db/version_edit.cc; sourceTree = "<group>"; };
+		3043B9AE1BBA05E2004C03D2 /* version_set.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = version_set.cc; path = ../../src/leveldb/db/version_set.cc; sourceTree = "<group>"; };
+		3043B9AF1BBA05E2004C03D2 /* write_batch.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = write_batch.cc; path = ../../src/leveldb/db/write_batch.cc; sourceTree = "<group>"; };
 		3043B9DC1BBA091B004C03D2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3043B9DE1BBA0E99004C03D2 /* db_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = db_impl.cc; path = ../../../src/leveldb/db/db_impl.cc; sourceTree = "<group>"; };
+		3043B9DE1BBA0E99004C03D2 /* db_impl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = db_impl.cc; path = ../../src/leveldb/db/db_impl.cc; sourceTree = "<group>"; };
 		308681F91BBA0F9D006C519A /* c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c.h; sourceTree = "<group>"; };
 		308681FA1BBA0F9D006C519A /* cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cache.h; sourceTree = "<group>"; };
 		308681FB1BBA0F9D006C519A /* comparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comparator.h; sourceTree = "<group>"; };
@@ -404,9 +404,10 @@
 		308686631BBBC910006C519A /* libbitcoin_cli.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libbitcoin_cli.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		308686C41BBBC979006C519A /* rpcclient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rpcclient.cpp; path = ../../src/rpcclient.cpp; sourceTree = "<group>"; };
 		308686CB1BBBCAE2006C519A /* bitcoin-cli */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bitcoin-cli"; sourceTree = BUILT_PRODUCTS_DIR; };
-		308686D21BBBCB44006C519A /* bitcoin-cli.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "bitcoin-cli.cpp"; path = "../../../src/bitcoin-cli.cpp"; sourceTree = "<group>"; };
+		308686D21BBBCB44006C519A /* bitcoin-cli.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "bitcoin-cli.cpp"; path = "/Users/leolin/git/bitcoin/contrib/osx/../../src/bitcoin-cli.cpp"; sourceTree = "<absolute>"; };
 		308686E71BBBCF52006C519A /* bitcoind */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bitcoind; sourceTree = BUILT_PRODUCTS_DIR; };
-		308686EE1BBBD18E006C519A /* bitcoind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bitcoind.cpp; path = ../../../src/bitcoind.cpp; sourceTree = "<group>"; };
+		308686EE1BBBD18E006C519A /* bitcoind.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bitcoind.cpp; path = ../../src/bitcoind.cpp; sourceTree = "<group>"; };
+		AC1C4933207D45AB005EE9DE /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../src; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -584,6 +585,7 @@
 		308681D11BBA003A006C519A = {
 			isa = PBXGroup;
 			children = (
+				AC1C4933207D45AB005EE9DE /* src */,
 				308686C61BBBC9A2006C519A /* bitcoin_client */,
 				308686241BBB8488006C519A /* univalue */,
 				308685FE1BBB7C7F006C519A /* memenv */,
@@ -632,7 +634,7 @@
 				308681F81BBA0F9D006C519A /* leveldb */,
 			);
 			name = include;
-			path = ../../../src/leveldb/include;
+			path = ../../src/leveldb/include;
 			sourceTree = "<group>";
 		};
 		308681F81BBA0F9D006C519A /* leveldb */ = {
@@ -1928,6 +1930,7 @@
 				3086826C1BBA10C3006C519A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		308682F41BBB0515006C519A /* Build configuration list for PBXNativeTarget "bitcoin_crypto" */ = {
 			isa = XCConfigurationList;
@@ -1936,6 +1939,7 @@
 				308682F61BBB0515006C519A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		308683141BBB067D006C519A /* Build configuration list for PBXNativeTarget "bitcoin_wallet" */ = {
 			isa = XCConfigurationList;
@@ -1944,6 +1948,7 @@
 				308683161BBB067D006C519A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		308683511BBB11F2006C519A /* Build configuration list for PBXNativeTarget "bitcoin_common" */ = {
 			isa = XCConfigurationList;
@@ -1952,6 +1957,7 @@
 				308683531BBB11F2006C519A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		308683B51BBB2D05006C519A /* Build configuration list for PBXNativeTarget "secp256k1" */ = {
 			isa = XCConfigurationList;
@@ -1960,6 +1966,7 @@
 				308683B71BBB2D05006C519A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		308683D61BBB316A006C519A /* Build configuration list for PBXNativeTarget "bitcoin_util" */ = {
 			isa = XCConfigurationList;
@@ -1968,6 +1975,7 @@
 				308683D81BBB316A006C519A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3086843B1BBB68EA006C519A /* Build configuration list for PBXNativeTarget "bitcoin_server" */ = {
 			isa = XCConfigurationList;
@@ -1976,6 +1984,7 @@
 				3086843D1BBB68EA006C519A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		308685F81BBB7C74006C519A /* Build configuration list for PBXNativeTarget "memenv" */ = {
 			isa = XCConfigurationList;
@@ -1984,6 +1993,7 @@
 				308685FA1BBB7C74006C519A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		308686181BBB841E006C519A /* Build configuration list for PBXNativeTarget "bitcoin_univalue" */ = {
 			isa = XCConfigurationList;
@@ -1992,6 +2002,7 @@
 				3086861A1BBB841E006C519A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		308686741BBBC911006C519A /* Build configuration list for PBXNativeTarget "bitcoin_cli" */ = {
 			isa = XCConfigurationList;
@@ -2000,6 +2011,7 @@
 				308686761BBBC911006C519A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		308686CF1BBBCAE2006C519A /* Build configuration list for PBXNativeTarget "bitcoin-cli" */ = {
 			isa = XCConfigurationList;
@@ -2008,6 +2020,7 @@
 				308686D11BBBCAE2006C519A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		308686EB1BBBCF53006C519A /* Build configuration list for PBXNativeTarget "bitcoind" */ = {
 			isa = XCConfigurationList;
@@ -2016,6 +2029,7 @@
 				308686ED1BBBCF53006C519A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
