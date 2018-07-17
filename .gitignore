@@ -121,3 +121,11 @@ db4/
 
 #vscode
 .vscode/
+
+#Eclipse
+.cproject
+.project
+.settings/
+
+#Netbeans
+nbproject/
